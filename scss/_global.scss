@@ -1,0 +1,68 @@
+html,
+body {
+	height: 100%;
+	font-family: 'NeueMachina';
+}
+
+body{
+	
+}
+
+.body{
+	&__main{
+		background: #F13EEC fixed;
+		background: -webkit-linear-gradient(top left, #FC5B01, #FF9900) fixed;
+		background: -moz-linear-gradient(top left, #FC5B01, #FF9900) fixed;
+		background: linear-gradient(to bottom right, #FC5B01, #FF9900) fixed;
+		background-repeat: no-repeat;
+	}
+	&__order{
+		background-color: #151515;
+	}
+	&__resources{
+		background-color: #FFFFFF;
+	}
+	&__about{
+		background-image: url(../images/background.svg);
+	}
+}
+
+.container-form{
+	max-width: 525px;
+	margin: 0 auto;
+}
+
+.container-resources{
+	max-width: 819px;
+	margin: 0 auto;
+}
+
+.container-shop{
+	max-width: 970px;
+	margin: 0 auto;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.main {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+
+.container{
+  max-width: 1113px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+
+
+
+
